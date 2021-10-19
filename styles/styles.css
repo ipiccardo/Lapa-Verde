@@ -386,7 +386,6 @@ background-image: url('../assets/2.jpg');
 background-size: cover;
 height: 15em;
 width: 12em;
-border-radius: 10px;
 }
 
 .trainingCenterItem1 button {
@@ -424,8 +423,6 @@ background-image: url('../assets/1.jpg');
 background-size: cover;
 height: 15em;
 width: 12em;
-border-radius: 10px;
-
 }
 
 .trainingCenterItem2 button {
@@ -462,8 +459,6 @@ background-image: url('../assets/IMG_377.jpg');
 background-size: cover;
 height: 15em;
 width: 12em;
-border-radius: 10px;
-
 }
 
 .trainingCenterItem3 button {
@@ -763,8 +758,6 @@ padding: 3px;
 	padding: 3px;
 }
 
-
-
 .hideGalery {
 	transition: all .4s;
 	position: relative; 
@@ -797,6 +790,18 @@ padding: 3px;
 .viewMore:hover {
 	background-color: rgba(0,0,0,.3);
 	transition: .4s;
+}
+
+
+@media (max-width: 500px) {
+.previus {font-size:1.5rem
+}
+.next {
+	font-size: 1.5rem;
+}
+.closeButtom{
+	font-size: 1.5rem;
+}
 }
 
 
@@ -888,10 +893,19 @@ transition: .4s;
 
 .specialFeatures__Container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	margin-left: 20px;
 	margin-right: 20px;
+	margin-top: 50px;
 }
+
+.specialFeatures__Container div div {
+	text-align: center;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 .specialFeatures__Container div div h3 {
 	text-align: center;
@@ -907,14 +921,23 @@ transition: .4s;
 .specialFeatures__CenterImage {
 	background-image: url('../assets/arbolAdn.jpeg');
 	background-size: cover;
-	width: 100%;
-	height: 400px;
+	flex-basis: 30%;
+	background-position: center;
 	border-radius: 50%;
-	flex-basis: 50%;
+}
+
+
+@media(max-width: 1000px) {
+	.specialFeatures__Container{
+		justify-content: space-between;
+	}
+	.specialFeatures__CenterImage {
+		flex-basis: 50%;
+	}
 }
 
 .specialFeatures__column1 {
-	flex-basis: 33%;
+	flex-basis: 20%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -924,7 +947,7 @@ transition: .4s;
 
 
 .specialFeatures__column3 {
-	flex-basis: 33%;
+	flex-basis: 20%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -1057,4 +1080,8 @@ transition: .4s;
 	margin-right: auto;
 	justify-content: center;
 	margin-bottom: 40px;
+}
+
+.hide {
+	display: none;
 }

@@ -25,7 +25,7 @@ addEventListener('DOMContentLoaded', () => {
 
   /* EVENTOS AL SCROLLEAR */
 
-  var checkScroll = function(){
+var checkScroll = function(){
     if ($(window).scrollTop() > 49){
       $('.nav').addClass('black'); 
     }else{
@@ -37,6 +37,9 @@ addEventListener('DOMContentLoaded', () => {
     checkScroll();
   });
 
+
+/* CLOSE NAV MENU */
+ 
 
 
   $(document).ready(function() {
@@ -120,4 +123,8 @@ btnClear.addEventListener('click', () => {
 })
 
 
+
+
+
 })
+  
