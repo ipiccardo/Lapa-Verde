@@ -1,15 +1,17 @@
 /* NAV MENU */
 
+/* NAV MENU */
+
 const toggleMenu = document.querySelector('.toggle-menu')
 
 addEventListener('DOMContentLoaded', () => {
   const toggleMenu = document.querySelector('.toggle-menu')
+  const mainMenu = document.querySelector('.main-menu')
   if (toggleMenu) {
     toggleMenu.addEventListener('click', () => {
-      const mainMenu = document.querySelector('.main-menu')
-      const nav = document.querySelector('.nav')
       const closeMenub = document.querySelector('.closeMenub')
       const openMenu = document.querySelector('.toggle-menu__icon')
+      const nav = document.querySelector('.nav')
       mainMenu.classList.toggle('show')
       nav.classList.toggle('green');
       openMenu.classList.toggle('openMenu')
@@ -20,8 +22,18 @@ addEventListener('DOMContentLoaded', () => {
       }
     })
   }
-})
 
+  /* cerrar mainMenu cuando se clickea en un link (mobile) */ 
+  let menuLinks = document.querySelectorAll('.main-menu__link')
+  menuLinks.forEach(function(link) {
+    link.addEventListener("click", function() {
+      if(mainMenu.classList.contains('show')){
+        mainMenu.classList.remove('show');
+      }
+    });
+  });
+
+})
 
   /* EVENTOS AL SCROLLEAR */
 
