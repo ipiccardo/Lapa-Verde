@@ -29,6 +29,8 @@ addEventListener('DOMContentLoaded', () => {
     link.addEventListener("click", function() {
       if(mainMenu.classList.contains('show')){
         mainMenu.classList.remove('show');
+        ($('.toggle-menu__iconB').addClass('closeMenub'))
+        ($('.toggle-menu__icon').removeClass('openMenu'))
       }
     });
   });

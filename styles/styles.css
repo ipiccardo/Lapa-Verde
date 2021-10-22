@@ -17,8 +17,8 @@ img,
 svg{max-width: 100%;}
 strong{font-weight: 600;}
 video {width: 100% ;z-index: -1; position: relative; top: 0}
-button:hover {background-color: rgba(0,0,0,.3);
-transition: .4s;}
+button:hover {background-color: #806733; cursor: pointer;
+	transition: .4s;}
 
 .nav{
 	background-color: transparent;
@@ -228,6 +228,8 @@ background: none;
   text-align: center;
   display: flex;
   flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
 
 }
 
@@ -238,29 +240,40 @@ background: none;
 	}
 }
 
-.flex p button {
-	  padding: 5px;
+.flex p a {
     background-color: #3F7F62FF;
-    border-radius: 10px;
+    border-radius: 80px;
     color: white;
-    width: 40%;
+    width: 70%;
     align-items: center;
     align-content: center;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-  	background-color: #3F7F62FF;
-		box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 10%);
+    margin-top: 20px;
+  	background-color: #3F7F62FF;;
 		opacity: 0.9;
+		margin-bottom: 20px;
 }
 
-.flex p button:hover {
-background-color: rgba(0,0,0,.3);
+.flex p a:hover {
+background-color: #806733;
 transition: .4s;
 }
 
+	.flex p button {
+	border-radius: 80px;
+	width: 100%;
+	padding: 6px;
+	border: none;
+	background-color: #3F7F62FF;
+	color: white;
+}
 
+.aboutUsButton:hover {
+background-color: #806733;
+transition: .4s;
+}
 
 .imagen {
 	width: 30%;
@@ -269,6 +282,7 @@ transition: .4s;
 	margin-left: 50px;
 	background-size: cover;
 	border-radius: 120px 0px 210px 0px;
+	height: 300px;
 }
 
 @media (max-width: 885px) {
@@ -288,8 +302,12 @@ transition: .4s;
 		margin-left: 0;
 	}
 	.flex p button {
-	margin-top: 40px;
-	margin-bottom: 40px;
+	border-radius: 80px;
+	width: 100%;
+	padding: 6px;
+	border: none;
+	background-color: #3F7F62FF;
+	color: white;
 }
 }
 .green {
@@ -365,7 +383,7 @@ color: black;
 .trainingCenterItem1 h3 {
 	font-size: 18px;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-bottom: 20px;
 	color: black;
 }
@@ -388,8 +406,11 @@ height: 15em;
 width: 12em;
 }
 
-.trainingCenterItem1 button {
-	margin-bottom: 20px;
+.trainingCenterItem1 a {
+	margin-bottom: 40px;
+	border-radius: 80px;
+	width: 40%;
+	padding: 2px;
 }
 
 .trainingCenterItem2 {
@@ -401,7 +422,7 @@ width: 12em;
 .trainingCenterItem2 h3 {
 	font-size: 18px;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-bottom: 20px;
 	color: black;
 }
@@ -425,8 +446,11 @@ height: 15em;
 width: 12em;
 }
 
-.trainingCenterItem2 button {
-	margin-bottom: 20px;
+.trainingCenterItem2 a {
+	margin-bottom: 40px;
+	border-radius: 80px;
+	width: 40%;
+	padding: 2px;
 }
 
 .trainingCenterItem3 {
@@ -438,7 +462,7 @@ width: 12em;
 .trainingCenterItem3 h3 {
 	font-size: 18px;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-bottom: 20px;
 	color: black;
 }
@@ -461,8 +485,12 @@ height: 15em;
 width: 12em;
 }
 
-.trainingCenterItem3 button {
-	margin-bottom: 20px;
+.trainingCenterItem3 a {
+	margin-bottom: 40px;
+	border-radius: 80px;
+	width: 40%;
+	padding: 2px;
+
 }
 
 
@@ -518,7 +546,7 @@ color: black;
 .volunteeringItem1 h3 {
 	font-size: 18px;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-bottom: 20px;
 	color: black;
 }
@@ -542,8 +570,11 @@ width: 12em;
 border-radius: 50%;
 }
 
-.volunteeringItem1 button {
-	margin-bottom: 20px;
+.volunteeringItem1 a {
+	margin-bottom: 40px;
+	border-radius: 80px;
+	width: 40%;
+	padding: 2px;
 }
 
 .volunteeringItem2 {
@@ -555,7 +586,7 @@ border-radius: 50%;
 .volunteeringItem2 h3 {
 	font-size: 18px;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-bottom: 20px;
 	color: black;
 }
@@ -581,8 +612,11 @@ border-radius: 50%;
 
 }
 
-.volunteeringItem2 button {
-	margin-bottom: 20px;
+.volunteeringItem2 a {
+	margin-bottom: 40px;
+	border-radius: 80px;
+	width: 40%;
+	padding: 2px;
 }
 
 .volunteeringItem3 {
@@ -594,7 +628,7 @@ border-radius: 50%;
 .volunteeringItem3 h3 {
 	font-size: 18px;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-bottom: 20px;
 	color: black;
 }
@@ -619,10 +653,25 @@ border-radius: 50%;
 
 }
 
-.volunteeringItem3 button {
-	margin-bottom: 20px;
+.volunteeringItem3 a {
+	margin-bottom: 40px;
+	border-radius: 80px;
+	width: 40%;
+	padding: 2px;
 }
 
+.linkButtons {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	background-color: #3F7F62FF;
+	border: none;
+	cursor: pointer;
+	color: white;
+	border-radius: 80px;
+	opacity: 0.9;
+	padding: 3px;
+}
 
 /* GALERY */
 
@@ -774,24 +823,44 @@ padding: 3px;
 	padding: 2px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-  padding: 5px;
 	background-color: #3F7F62FF;
-	border-radius: 10px;
+	border-radius: 80px;
 	color: white;
 	align-items: center;
 	align-content: center;
 	text-align: center;
 	margin-top: 20px;
 	background-color: #3F7F62FF;
-	box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 10%);
 	opacity: 0.9;
+	width: 200px;
+	text-align: center;
+	cursor: pointer;
 }
 
+.galeryButton {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	background-color: #3F7F62FF;
+	border: none;
+	cursor: pointer;
+	color: white;
+	border-radius: 80px;
+	opacity: 0.9;
+	padding: 3px;
+
+}
+
+
 .viewMore:hover {
-	background-color: rgba(0,0,0,.3);
+	background-color: #806733;
 	transition: .4s;
 }
 
+.galeryButton:hover {
+	background-color: #806733;
+	transition: .4s;
+}
 
 @media (max-width: 500px) {
 .previus {font-size:1.5rem
@@ -866,8 +935,7 @@ transition: .4s;
 }
 
 .instagram {
-	padding: 20px;
-	font-size: 50px;
+	font-size: 30px;
 }
 
 .instagram:hover {
@@ -1038,7 +1106,7 @@ transition: .4s;
 
 .formButton:hover {
  	cursor: pointer;
-	background-color: rgba(0,0,0,.3);
+	background-color: #806733;
 	transition: .4s;
 	color: white;
 }
@@ -1054,7 +1122,7 @@ transition: .4s;
 .buttons {
 	  padding: 5px;
     background-color: #3F7F62FF;
-    border-radius: 10px;
+    border-radius: 80px;
     color: white;
     align-items: center;
     align-content: center;
@@ -1063,13 +1131,14 @@ transition: .4s;
     margin-right: auto;
     margin-top: 20px;
   	background-color: #3F7F62FF;
-		box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 10%);
 		opacity: 0.9;
 }
 
 .buttons:hover {
-background-color: rgba(0,0,0,.3);
+background-color: #806733;
 transition: .4s;
+cursor: pointer;
+
 }
 
 /* MAP */
@@ -1079,8 +1148,18 @@ transition: .4s;
 	margin-left: auto;
 	margin-right: auto;
 	justify-content: center;
-	margin-bottom: 40px;
+	width: 100%;
+
 }
+
+.mapContainer iframe {
+	width: 100%;
+	height: 100vh;
+	margin-top: -40px;
+}
+
+
+/* HIDE */
 
 .hide {
 	display: none;
