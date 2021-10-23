@@ -6,6 +6,7 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/venobox.min.css">
 	<link rel="shortcut icon" href="./assets/icons/favicon.jpg" type="image/x-icon">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Roboto:400,700&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/0e12aedf0c.js" crossorigin="anonymous"></script>
@@ -137,29 +138,71 @@
 		</section>
 		<section class="galerySection" id="galery">
 			<h2 class="subtitles">Galery</h2>
-			<div class="galery">
-				<img src="./assets/Galery/1.jpg" alt="Galeria de Imágenes">
-				<img src="./assets/Galery/2.jpg" alt="Galeria de Imágenes">
-				<img src="./assets/Galery/3.jpg" alt="Galeria de Imágenes">
-				<img src="./assets/Galery/4.jpg" alt="Galeria de Imágenes">
-				<img src="./assets/Galery/5.jpg" alt="Galeria de Imágenes">
-				<img src="./assets/Galery/6.jpg" alt="Galeria de Imágenes">
-				<img src="./assets/Galery/7.jpg" alt="Galeria de Imágenes">
-				<img src="./assets/Galery/8.jpg" alt="Galeria de Imágenes">
-				<img src="./assets/Galery/9.jpg" alt="Galeria de Imágenes">
-				<img src="./assets/Galery/10.jpg" alt="Galeria de Imágenes">
-				<img src="./assets/Galery/11.jpg" alt="Galeria de Imágenes">
-				<img src="./assets/Galery/12.jpg" alt="Galeria de Imágenes">
+			<div class="container-fluid px-5">
+				<div class="row">
+					<div class="item col-3">
+						<a class="venobox" href="./assets/Galery/1.jpg" data-title="Image Description" data-gall="myGall">
+							<img src="./assets/Galery/1.jpg" class="smalling" alt=""> 
+						</a>
+					</div>
+					<div class="item col-3">
+						<a class="venobox" href="./assets/Galery/2.jpg" data-title="Image Description" data-gall="myGall">
+							<img src="./assets/Galery/2.jpg" class="smalling" alt=""> 
+						</a>
+					</div>
+					<div class="item col-3">
+						<a class="venobox" href="./assets/Galery/3.jpg" data-title="Image Description" data-gall="myGall">
+							<img src="./assets/Galery/3.jpg" class="smalling" alt=""> 
+						</a>
+					</div>
+					<div class="item col-3">
+						<a class="venobox" href="./assets/Galery/4.jpg" data-title="Image Description" data-gall="myGall">
+							<img src="./assets/Galery/4.jpg" class="smalling" alt=""> 
+						</a>
+					</div>
+					<div class="item col-3">
+						<a class="venobox" href="./assets/Galery/5.jpg" data-title="Image Description" data-gall="myGall">
+							<img src="./assets/Galery/5.jpg" class="smalling" alt=""> 
+						</a>
+					</div>
+					<div class="item col-3">
+						<a class="venobox" href="./assets/Galery/6.jpg" data-title="Image Description" data-gall="myGall">
+							<img src="./assets/Galery/6.jpg" class="smalling" alt=""> 
+						</a>
+					</div>
+					<div class="item col-3">
+						<a class="venobox" href="./assets/Galery/7.jpg" data-title="Image Description" data-gall="myGall">
+							<img src="./assets/Galery/7.jpg" class="smalling" alt=""> 
+						</a>
+					</div>
+					<div class="item col-3">
+						<a class="venobox" href="./assets/Galery/8.jpg" data-title="Image Description" data-gall="myGall">
+							<img src="./assets/Galery/8.jpg" class="smalling" alt=""> 
+						</a>
+					</div>
+					<div class="item col-3">
+						<a class="venobox" href="./assets/Galery/9.jpg" data-title="Image Description" data-gall="myGall">
+							<img src="./assets/Galery/9.jpg" class="smalling" alt=""> 
+						</a>
+					</div>
+					<div class="item col-3">
+						<a class="venobox" href="./assets/Galery/10.jpg" data-title="Image Description" data-gall="myGall">
+							<img src="./assets/Galery/10.jpg" class="smalling" alt=""> 
+						</a>
+					</div>
+					<div class="item col-3">
+						<a class="venobox" href="./assets/Galery/11.jpg" data-title="Image Description" data-gall="myGall">
+							<img src="./assets/Galery/11.jpg" class="smalling" alt=""> 
+						</a>
+					</div>
+					<div class="item col-3">
+						<a class="venobox" href="./assets/Galery/12.jpg" data-title="Image Description" data-gall="myGall">
+							<img src="./assets/Galery/12.jpg" class="smalling" alt=""> 
+						</a>
+					</div>
+				</div>
+				<a href="galery.html" target="_blank" class="viewMore"><button class="galeryButton" type="button"> View More </button></a>
 			</div>
-		<section class="containerGalery">
-		<div class="indexContainerGalery">
-			<img class="img-active" src="./assets/Galery/1.jpg" alt="Galeria de Imágenes">
-			<button class="closeButtom" type="button"> <i class="fas fa-times"></i></button>
-			<button class="previus" type="button">&lt;</button>
-			<button class="next" type="button">&gt;</button>
-		</div>
-		</section>
-		<a href="galery.html" target="_blank" class="viewMore"><button class="galeryButton" type="button"> View More </button></a>
 		</section>
 
 		<section class="formSection" id="contactUs">
@@ -205,6 +248,7 @@
 		</div>
 	</footer>
 <script src="scripts/jquery.js"></script>
+<script src="scripts/venobox.min.js"></script>
 <script src="scripts/script.js"></script>
 </body>
 </html>
