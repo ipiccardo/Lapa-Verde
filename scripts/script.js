@@ -149,7 +149,7 @@ btnClear.addEventListener('click', () => {
       frameheight: '90vh',
       titleattr:'data title',
       numeratio:true,
-      arrowsColor: '#3F7F62FF'
+      arrowsColor: '#FF0000FF'
 
     });
 
