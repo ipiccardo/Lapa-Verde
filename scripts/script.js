@@ -145,7 +145,6 @@ btnClear.addEventListener('click', () => {
 
   $(document).ready(function(){
     $('.venobox').venobox({
-      framewidth: '68%',
       frameheight: '90vh',
       titleattr:'data title',
       numeratio:true,
