@@ -124,15 +124,14 @@ padding: 80px;
 
 
 .backgroundTraining1 img {
-	height: 550px;
+	height: 450px;
 	margin-right: auto;
 	margin-left: auto;
-	width: 100%;
 }
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 	.backgroundTraining1 img {
     height: 300px;
     margin-left: auto;
