@@ -142,20 +142,13 @@ background: none;
 }
 
 .title{
-		position: absolute;
+	position: absolute;
     top: 0;
     margin-top: 25%;
     z-index: -1;
     opacity: 0.9;
     color: white;
     font-weight: bold;
-    font-size: 6em;
-}
-
-@media (max-width: 550px) {
-	.title {
-		font-size: 6em;
-	}
 }
 
 @media (max-width: 400px) {
@@ -1198,36 +1191,36 @@ cursor: pointer;
 }
 
 .vbox-close:hover{
-	color: #806733 !important;
+	color: #FF0000FF !important;
 	transition: .4s !important;
 }
 
 .vbox-next{
 	margin-right: 20px !important;
-	color: #3F7F62FF  !important;
+	color: #FF0000FF  !important;
 
 }
 
 .vbox-next span:hover{
-	border-top-color: #806733 !important;
-	border-right-color: #806733 !important;
+	border-top-color: #FF0000FF !important;
+	border-right-color: #FF0000FF !important;
 	transition: .4s !important;
 }
 
 .vbox-prev{
 	margin-left: 5px !important;
-	color: #3F7F62FF  !important;
+	color: #FF0000FF  !important;
 }
 
 .vbox-prev span:hover{
-	border-top-color: #806733 !important;
-	border-right-color: #806733 !important;
+	border-top-color: #FF0000FF !important;
+	border-right-color: #FF0000FF !important;
 	transition: .4s !important;
 }
 
 @media (max-width: 630px) {
 	.vbox-close {
-	color: #3F7F62FF  !important;
+	color:	#FF0000FF !important;
 	font-size: 40px !important;
 	margin-right: 2px !important;
 }
@@ -1245,7 +1238,7 @@ cursor: pointer;
 }
 
 .vbox-content img{
-		height: 100vh !important;
-		width: 100% !important;
+		height: 70vh !important;
+		width: 90% !important;
 	}
 }
