@@ -26,7 +26,7 @@
 	justify-content: center;
 	width: 100%;
 	flex-wrap: wrap;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 
@@ -187,3 +187,54 @@ padding: 80px;
 		font-size: 3em;
 	}
 }
+
+
+
+/* OUR TEAM */
+
+/* UTILIZO LAS MISMAS CLASES QUE VOLUNTEERING Y LE AGREGO LAS CLASES ourteamIMAGE */
+
+
+.heroAboutUs {
+	background-image: url('../assets/Galery/30.jpg');
+	width: 100%;
+	min-height: 100vh;
+	background-size: cover;
+	position: relative;
+	z-index: -1;
+	background-repeat: no-repeat;
+	background-position: 0;
+}
+
+
+.ourteamImage {
+background-image: url('../assets/persona 3.jpeg') !important;
+background-size: cover;
+height: 15em;
+width: 12em;
+border-radius: 50%;
+}
+
+
+.ourTeamImage2 {
+background-image: url('../assets/persona 4.jpeg') !important;;
+background-size: cover;
+height: 15em;
+width: 12em;
+border-radius: 50%;
+
+}
+
+
+.ourteamImage3 {
+background-image: url('../assets/Persona 1.jpeg') !important;;
+background-size: cover;
+height: 15em;
+width: 12em;
+border-radius: 50%;
+
+}
+
+
+
+
