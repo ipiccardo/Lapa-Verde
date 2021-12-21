@@ -20,6 +20,11 @@ video {width: 100% ;z-index: -1; position: relative; top: 0}
 button:hover {background-color: #806733; cursor: pointer;
 	transition: .4s;}
 
+
+a label {
+	cursor: pointer;
+}
+
 .nav {
 	background-color: transparent;
 	height: 50px;
