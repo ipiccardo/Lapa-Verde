@@ -22,7 +22,7 @@ button:hover {background-color: #806733; cursor: pointer;
 
 .nav {
 	background-color: transparent;
-	height: 75px;
+	height: 50px;
 	width: 100vw;
 	display: flex;
 	justify-content: space-between;
@@ -138,7 +138,7 @@ background: none;
 }
 
 .show {
-	top: 75px;
+	top: 49px;
 }
 
 .title{
@@ -213,13 +213,13 @@ background: none;
 	text-align: center;
 	margin-bottom: 40px;
 	margin-top: 10px;
-	padding: 4em 20px;
+	padding: 2.5em 20px;
 	background-color: #F7F8F9;
 	}
 
 .flex p {
-	width: 30%;
-  text-align: center;
+	width: 35%;
+  text-align: justify;
   display: flex;
   flex-direction: column;
   margin-top: auto;
@@ -239,7 +239,7 @@ background: none;
     border-radius: 80px;
     color: white;
     width: 70%;
-    align-items: center;
+    align-items: justify;
     align-content: center;
     text-align: center;
     margin-left: auto;
@@ -271,13 +271,22 @@ transition: .4s;
 
 .imagen {
 	width: 30%;
-	background-image: url('../assets/aboutUs.jpeg');
+	background-image: url('../assets/aboutUs.JPG');
 	height: 230px;
 	margin-left: 50px;
 	background-size: cover;
 	border-radius: 120px 0px 210px 0px;
 	height: 300px;
 }
+
+
+@media (max-width: 432px) {
+	.imagen{
+		background-position: center;
+	}
+}
+
+
 
 @media (max-width: 885px) {
 	.flex {;
@@ -287,7 +296,7 @@ transition: .4s;
 	}
 	.flex p{
 		width: 80%;
-		text-align: center;
+		text-align: justify;
 		margin-top: 40px;
 		font-size: 18px;
 	}
@@ -372,6 +381,7 @@ color: black;
 	display: flex ;
 	flex-direction: column;
 	align-items: center;
+	flex-basis: 33%;
 }
 
 .trainingCenterItem1 h3 {
@@ -383,8 +393,8 @@ color: black;
 }
 
 .trainingCenterItem1 p {
-	font-size: 18px;
-	text-align: center;
+	font-size: 16px;
+	text-align: justify;
 	margin-top: 20px;
 	margin-bottom: 20px;
   margin-right: 30px;
@@ -400,17 +410,29 @@ height: 15em;
 width: 12em;
 }
 
+
+.trainingCenterItem1 ul {
+	text-align: center;
+	font-size: 15px;
+	width: 80%;
+	margin-bottom: 40px;
+	margin-top: 20px;
+
+}
+
 .trainingCenterItem1 a {
 	margin-bottom: 40px;
 	border-radius: 80px;
 	width: 40%;
 	padding: 2px;
+	margin-top: auto;
 }
 
 .trainingCenterItem2 {
 	display: flex ;
 	flex-direction: column;
 	align-items: center;
+	flex-basis: 33%;
 }
 
 .trainingCenterItem2 h3 {
@@ -422,8 +444,8 @@ width: 12em;
 }
 
 .trainingCenterItem2 p {
-	font-size: 18px;
-	text-align: center;
+	font-size: 16px;
+	text-align: justify;
 	margin-top: 20px;
 	margin-bottom: 20px;
   margin-right: 30px;
@@ -439,18 +461,37 @@ background-size: cover;
 height: 15em;
 width: 12em;
 }
+.trainingCenterItem2 ul {
+	text-align: center;
+	font-size: 15px;
+	width: 80%;
+	margin-bottom: 40px;
+	margin-top: 20px;
+
+}
 
 .trainingCenterItem2 a {
 	margin-bottom: 40px;
 	border-radius: 80px;
 	width: 40%;
 	padding: 2px;
+	margin-top: auto;
 }
 
 .trainingCenterItem3 {
 	display: flex ;
 	flex-direction: column;
 	align-items: center;
+	flex-basis: 33%;
+}
+
+.trainingCenterItem3 ul {
+	text-align: center;
+	font-size: 15px;
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+
 }
 
 .trainingCenterItem3 h3 {
@@ -462,8 +503,8 @@ width: 12em;
 }
 
 .trainingCenterItem3 p {
-	font-size: 18px;
-	text-align: center;
+	font-size: 16px;
+	text-align: justify;
 	margin-top: 20px;
 	margin-bottom: 20px;
   margin-right: 30px;
@@ -471,6 +512,8 @@ width: 12em;
   color: black;
 
 }
+
+
 
 .trainingCenterItem3 div {
 background-image: url('../assets/IMG_377.jpg');
@@ -484,6 +527,7 @@ width: 12em;
 	border-radius: 80px;
 	width: 40%;
 	padding: 2px;
+	margin-top: auto;
 
 }
 
@@ -535,6 +579,7 @@ color: black;
 	display: flex ;
 	flex-direction: column;
 	align-items: center;
+	flex-basis: 33%;
 }
 
 .volunteeringItem1 h3 {
@@ -546,8 +591,8 @@ color: black;
 }
 
 .volunteeringItem1 p {
-	font-size: 18px;
-	text-align: center;
+	font-size: 16px;
+	text-align: justify;
 	margin-top: 20px;
 	margin-bottom: 20px;
   margin-right: 30px;
@@ -569,12 +614,14 @@ border-radius: 50%;
 	border-radius: 80px;
 	width: 40%;
 	padding: 2px;
+	margin-top: auto;
 }
 
 .volunteeringItem2 {
 	display: flex ;
 	flex-direction: column;
 	align-items: center;
+	flex-basis: 33%;
 }
 
 .volunteeringItem2 h3 {
@@ -586,8 +633,8 @@ border-radius: 50%;
 }
 
 .volunteeringItem2 p {
-	font-size: 18px;
-	text-align: center;
+	font-size: 16px;
+	text-align: justify;
 	margin-top: 20px;
 	margin-bottom: 20px;
   margin-right: 30px;
@@ -611,12 +658,14 @@ border-radius: 50%;
 	border-radius: 80px;
 	width: 40%;
 	padding: 2px;
+	margin-top: auto;
 }
 
 .volunteeringItem3 {
 	display: flex ;
 	flex-direction: column;
 	align-items: center;
+	flex-basis: 33%;
 }
 
 .volunteeringItem3 h3 {
@@ -628,8 +677,8 @@ border-radius: 50%;
 }
 
 .volunteeringItem3 p {
-	font-size: 18px;
-	text-align: center;
+	font-size: 16px;
+	text-align: justify;
 	margin-top: 20px;
 	margin-bottom: 20px;
   margin-right: 30px;
@@ -652,6 +701,7 @@ border-radius: 50%;
 	border-radius: 80px;
 	width: 40%;
 	padding: 2px;
+	margin-top: auto;
 }
 
 .linkButtons {
@@ -971,17 +1021,19 @@ transition: .4s;
 
 .specialFeatures__Container div div h3 {
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	font-size: 18px;
 }
 
 
 .specialFeatures__Container div div p {
 	text-align: center;
 	margin-bottom: 20px;
+	font-size: 15px;
 }
 
 .specialFeatures__CenterImage {
-	background-image: url('../assets/arbolAdn.jpeg');
+	background-image: url('../assets/principios.jpg');
 	background-size: cover;
 	flex-basis: 30%;
 	background-position: center;
@@ -1021,9 +1073,43 @@ transition: .4s;
 
 @media (max-width: 800px) {
 .specialFeatures{
-	display: none;
+	/*display: none;*/
 }
 
+.specialFeatures__Container {
+	display: flex;
+	flex-direction: column;
+
+}
+.specialFeatures__column1 {
+	flex-direction: column;
+	margin-bottom: -20px;
+}
+.specialFeatures__Container div div {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.specialFeatures__CenterImage {
+	padding: 200px;
+	width: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+}
+
+@media (max-width:  500px) {
+	.specialFeatures__CenterImage {
+		padding: 150px;
+		
+	}
+}
+
+
+@media (max-width:  330px) {
+	.specialFeatures__CenterImage {
+		padding: 100px;
+	}
 }
 
 
@@ -1258,3 +1344,26 @@ cursor: pointer;
 	}
 }
 
+.parrafos {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+
+
+}
+
+
+.parrafos p {
+	margin-bottom: 30px;
+	flex-basis: 10%;
+}
+
+
+
+
+.centerText {
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+
+}
