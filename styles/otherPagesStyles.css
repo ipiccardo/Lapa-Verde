@@ -35,13 +35,13 @@
 
 @media (max-width: 700px) {
   .itemGalery {
-    flex-basis: 15%;
+    flex-basis: 30%;
   }
 }
 
 @media (max-width: 450px) {
   .itemGalery {
-    flex-basis: 20%;
+    flex-basis: 30%;
   }
 }
 
@@ -376,6 +376,10 @@
 
 .marginBottom {
   margin-bottom: 40px;
+}
+
+.marginBottomImport {
+  margin-bottom: 40px !important;
 }
 
 .centerText {

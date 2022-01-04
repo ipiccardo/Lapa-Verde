@@ -396,6 +396,7 @@ a label {
   text-align: center;
   margin-bottom: 40px;
   color: black;
+  margin-top: -40px;
 }
 
 .trainingCenter {
@@ -1415,7 +1416,7 @@ footer {
 }
 
 .sectionContainer {
-  max-width: 2000px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
