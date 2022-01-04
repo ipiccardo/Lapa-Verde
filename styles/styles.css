@@ -1112,7 +1112,7 @@ footer {
 .specialFeatures__CenterImage {
   background-image: url("../assets/principios.jpg");
   background-size: cover;
-  flex-basis: 30%;
+  flex-basis: 50%;
   background-position: center;
   border-radius: 50%;
   margin-bottom: 40px;
