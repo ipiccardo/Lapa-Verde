@@ -370,6 +370,10 @@
   margin-top: -40px;
 }
 
+.marginTopDiezPixelesMinus {
+  margin-top: -10px;
+}
+
 .marginTopPlus {
   margin-top: 40px;
 }
