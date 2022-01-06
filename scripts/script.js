@@ -136,21 +136,5 @@ btnClear.addEventListener('click', () => {
   textArea.value = ''
 })
 
-
-
-
-
 })
-
-
-  $(document).ready(function(){
-    $('.venobox').venobox({
-      frameheight: '90vh',
-      titleattr:'data title',
-      numeratio:true,
-      arrowsColor: '#FF0000FF'
-
-    });
-
-    })
 
