@@ -67,12 +67,13 @@
   z-index: 99;
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 8px;
   margin-left: 10px;
 }
 .vbox-num {
   display: inline-block;
   margin: 6px 0 6px 15px;
+  width: 60px;
 }
 .vbox-share {
   line-height: 28px;
