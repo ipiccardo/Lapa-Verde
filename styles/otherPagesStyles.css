@@ -162,7 +162,7 @@
 .otherPagesTitle {
   position: absolute;
   top: 0;
-  margin-top: 25%;
+  margin-top: 50vh;
   z-index: -1;
   opacity: 0.9;
   color: white;
@@ -172,11 +172,11 @@
 
 @media (max-width: 630px) {
   .otherPagesTitle {
-    margin-top: 50%;
+    margin-top: 50vh;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .otherPagesTitle {
     font-size: 3em;
   }
@@ -390,6 +390,10 @@
   margin-bottom: 40px !important;
 }
 
+.marginBottomMinus40px {
+  margin-bottom: -40px;
+}
+
 .centerText {
   text-align: center;
 }
@@ -482,4 +486,105 @@
     width: 80%;
     height: 300px;
   }
+}
+
+.fourImage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fourImage div {
+  flex-basis: 35%;
+  margin-bottom: 40px;
+}
+
+.thoImage {
+  display: flex;
+  justify-content: center;
+}
+
+.thoImage div {
+  flex-basis: 35%;
+}
+
+.thoImage div {
+  opacity: 100;
+}
+
+@media (max-width: 860px) {
+  .thoImage div {
+    flex-basis: 43%;
+  }
+  .threeImage div {
+    flex-basis: 43% !important;
+  }
+  .fourImage div {
+    flex-basis: 43%;
+  }
+}
+
+@media (max-width: 720px) {
+  .thoImage {
+    flex-direction: column;
+    margin-bottom: -20px;
+  }
+
+  .thoImage div {
+    margin-bottom: 20px;
+  }
+  .threeImage {
+    flex-direction: column;
+    margin-bottom: -20px;
+  }
+
+  .threeImage div {
+    margin-bottom: 20px !important;
+  }
+
+  .fourImage {
+    flex-direction: column;
+    margin-bottom: -20px;
+  }
+
+  .fourImage div {
+    margin-bottom: 20px;
+  }
+}
+
+.threeImage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.threeImage div {
+  flex-basis: 35%;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+  .ul {
+    font-size: 15px;
+    width: 80%;
+  }
+}
+
+.ul li a:hover {
+  color: blue;
+}
+
+.ul li a:active {
+  color: red;
+}
+
+.heroPermaculture {
+  background-image: url("../assets/permacultura/0.jpg");
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: 0;
 }

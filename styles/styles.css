@@ -86,9 +86,15 @@ a label {
 
 .logo {
   font-size: 25px;
-  padding: 0 80px;
+  padding: 0 20px;
   color: white;
   font-weight: bold;
+}
+
+.logo:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 0.4s;
+  color: white;
 }
 
 .main-menu {
@@ -100,10 +106,11 @@ a label {
 @media (max-width: 952px) {
   .logo {
     font-size: 20px;
-    padding-left: 35px;
+    padding-left: 20px;
   }
   .main-menu__link {
     font-size: 16px;
+    padding: 7px 7px !important;
   }
 }
 .main-menu__item {
@@ -1432,4 +1439,12 @@ footer {
 
 html {
   scroll-behavior: smooth;
+}
+
+.contenedorLogo {
+  background-image: url("../assets/logo/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 100;
 }
