@@ -1448,3 +1448,8 @@ html {
   background-position: center;
   z-index: 100;
 }
+
+img:hover {
+  filter: grayscale(80%);
+  transition: 0.8s;
+}
