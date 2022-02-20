@@ -372,6 +372,7 @@
 
 .marginTopMinusImportant {
   margin-top: 0px !important;
+  text-align: justify;
 }
 
 .marginTopDiezPixelesMinus {
@@ -632,4 +633,8 @@ img:hover {
   .tresFotsHijos {
     margin-right: 0px;
   }
+}
+
+.textAlignJustify {
+  text-align: justify;
 }
