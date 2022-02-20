@@ -370,6 +370,10 @@
   margin-top: -40px;
 }
 
+.marginTopMinusImportant {
+  margin-top: 0px !important;
+}
+
 .marginTopDiezPixelesMinus {
   margin-top: -10px;
 }
@@ -597,4 +601,35 @@
 img:hover {
   filter: grayscale(80%);
   transition: 0.8s;
+}
+
+.imageVideo {
+  border-radius: 10%;
+  height: 400px;
+  width: 300px;
+  margin-top: 40px;
+}
+
+.tresFotos {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tresFotosHijos {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  border-radius: 10%;
+  height: 400px;
+  width: 300px;
+}
+
+@media (max-width: 640px) {
+  .tresFotsHijos {
+    margin-right: 0px;
+  }
 }
