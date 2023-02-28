@@ -633,8 +633,21 @@ img:hover {
   .tresFotsHijos {
     margin-right: 0px;
   }
+
+  .parrafos p {
+    font-size: 15px;
+  }
 }
 
 .textAlignJustify {
   text-align: justify;
+}
+
+.backgroundAboutUs {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
