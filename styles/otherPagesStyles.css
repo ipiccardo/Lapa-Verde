@@ -271,7 +271,7 @@
 
 .images img {
   height: 400px;
-  border-radius: 10%;
+  /* border-radius: 10%; */
 }
 
 @media (max-width: 630px) {
@@ -438,14 +438,14 @@
 
 .dosImagesLeft {
   margin-right: 20px;
-  border-radius: 10%;
+  /* border-radius: 10%; */
   height: 400px;
   width: 300px;
 }
 
 .dosImagesRight {
   margin-left: 20px;
-  border-radius: 10%;
+  /* border-radius: 10%; */
   height: 400px;
   width: 300px;
 }
@@ -605,7 +605,7 @@ img:hover {
 }
 
 .imageVideo {
-  border-radius: 10%;
+  /* border-radius: 10%; */
   height: 400px;
   width: 300px;
   margin-top: 40px;
@@ -624,7 +624,7 @@ img:hover {
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 40px;
-  border-radius: 10%;
+  /* border-radius: 10%; */
   height: 400px;
   width: 300px;
 }
