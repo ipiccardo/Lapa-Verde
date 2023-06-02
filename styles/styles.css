@@ -72,6 +72,10 @@ a label {
   cursor: pointer;
 }
 
+p {
+  line-height: 2;
+}
+
 .nav {
   background-color: transparent;
   height: 50px;
@@ -337,7 +341,8 @@ a label {
   margin-left: 50px;
   background-size: cover;
   border-radius: 120px 0px 210px 0px;
-  height: 300px;
+  height: 480px;
+  background-position: center;
 }
 
 @media (max-width: 432px) {
