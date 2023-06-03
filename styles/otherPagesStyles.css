@@ -326,6 +326,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
+  text-align: justify;
 }
 
 @media (max-width: 600px) {
@@ -498,6 +499,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  /* max-width: 960px; */
 }
 
 .fourImage div {
@@ -534,6 +537,7 @@
   .thoImage {
     flex-direction: column;
     margin-bottom: -20px;
+    align-items: center;
   }
 
   .thoImage div {
@@ -542,6 +546,7 @@
   .threeImage {
     flex-direction: column;
     margin-bottom: -20px;
+    align-items: center;
   }
 
   .threeImage div {
@@ -551,6 +556,7 @@
   .fourImage {
     flex-direction: column;
     margin-bottom: -20px;
+    align-items: center;
   }
 
   .fourImage div {
@@ -562,6 +568,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  /* max-width: 960px; */
 }
 
 .threeImage div {
@@ -654,4 +662,8 @@ img:hover {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+}
+
+.height_auto {
+  height: auto;
 }
