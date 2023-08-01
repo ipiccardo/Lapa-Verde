@@ -703,6 +703,12 @@ img:hover {
   opacity: 1;
   transform: translateX(0); /* Mueve el contenido al centro */
 }
+
+.center-text {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
 /* 
 .video-container {
   width: 500px !important;

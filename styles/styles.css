@@ -1525,6 +1525,11 @@ img:hover {
   width: 100%;
 }
 
+.center-text {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
 /* 
 @keyframes image_animation {
   0% {
