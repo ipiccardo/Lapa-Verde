@@ -501,6 +501,7 @@ p {
   background-size: cover;
   height: 15em;
   width: 12em;
+  box-shadow: 5px 2px 5px 1px grey;
 }
 
 .trainingCenterItem1 ul {
@@ -552,6 +553,7 @@ p {
   background-size: cover;
   height: 15em;
   width: 12em;
+  box-shadow: 5px 2px 5px 1px grey;
 }
 .trainingCenterItem2 ul {
   text-align: center;
@@ -610,6 +612,7 @@ p {
   background-size: cover;
   height: 15em;
   width: 12em;
+  box-shadow: 5px 2px 5px 1px grey;
 }
 
 .trainingCenterItem3 a {
@@ -718,6 +721,7 @@ p {
   height: 15em;
   width: 12em;
   border-radius: 50%;
+  box-shadow: 5px 2px 5px 1px grey;
 }
 
 .volunteeringItem1 a {
@@ -762,6 +766,7 @@ p {
   height: 15em;
   width: 12em;
   border-radius: 50%;
+  box-shadow: 5px 2px 5px 1px grey;
 }
 
 .volunteeringItem2 a {
@@ -806,6 +811,7 @@ p {
   height: 15em;
   width: 12em;
   border-radius: 50%;
+  box-shadow: 5px 2px 5px 1px grey;
 }
 
 .volunteeringItem3 a {
@@ -1131,6 +1137,7 @@ footer {
   border-radius: 50%;
   margin-bottom: 40px;
   margin-top: -15px;
+  box-shadow: 5px 2px 5px 1px grey;
 }
 
 @media (max-width: 1000px) {
