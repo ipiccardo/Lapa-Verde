@@ -343,6 +343,7 @@ p {
   border-radius: 120px 0px 210px 0px;
   height: 480px;
   background-position: center;
+  box-shadow: 5px 2px 5px 1px grey;
 }
 
 @media (max-width: 432px) {
