@@ -277,6 +277,7 @@
 .images img {
   height: 400px;
   box-shadow: 5px 2px 5px 1px grey;
+  border-radius: 10px;
   /* border-radius: 10%; */
 }
 
@@ -307,6 +308,7 @@
 .smallVideos {
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .subSubtitle {
@@ -453,6 +455,7 @@
   height: 400px;
   width: 300px;
   box-shadow: 5px 2px 5px 1px grey;
+  border-radius: 10px;
 }
 
 .dosImagesLeft:hover,
@@ -466,6 +469,7 @@
   height: 400px;
   width: 300px;
   box-shadow: 5px 2px 5px 1px grey;
+  border-radius: 10px;
 }
 
 @media (max-width: 800px) {
