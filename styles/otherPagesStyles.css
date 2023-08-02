@@ -114,6 +114,7 @@
   margin-right: auto;
   margin-left: auto;
   box-shadow: 5px 2px 5px 1px grey;
+  border-radius: 10px;
 }
 .backgroundTraining1 img:hover {
   animation: image_animation 1.5s ease-out;
