@@ -679,7 +679,7 @@ img:hover {
 .backgroundAboutUs {
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
