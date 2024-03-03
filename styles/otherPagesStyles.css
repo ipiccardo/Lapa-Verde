@@ -314,7 +314,7 @@
 
 .subSubtitle {
   text-align: center;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   margin-bottom: 40px;
   font-size: 1.1em;
 }
@@ -411,6 +411,10 @@
 
 .marginBottomMinus40px {
   margin-bottom: -40px;
+}
+
+.removeMarginTopPlus {
+  margin-top: 0 !important;
 }
 
 .centerText {
@@ -554,11 +558,23 @@
   }
 }
 
+.twoImagesInPermacultura {
+  margin-top: 0 !important;
+}
+
 @media (max-width: 720px) {
   .thoImage {
     flex-direction: column;
     margin-bottom: -20px;
     align-items: center;
+  }
+
+  .twoImagesInPermacultura {
+    margin-bottom: 0 !important;
+  }
+
+  .twoImagesInPermacultura div {
+    margin-bottom: 0 !important;
   }
 
   .thoImage div {
@@ -731,3 +747,11 @@ img:hover {
     transform: rotateY(360deg);
   }
 } */
+
+.ourTeamMember {
+  width: 80% !important;
+}
+
+.twoImagesInPermacultura {
+  gap: 20px !important;
+}
