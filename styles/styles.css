@@ -1542,3 +1542,7 @@ img:hover {
     transform: rotateY(360deg);
   }
 } */
+
+.marginTopPlus {
+  margin-top: 40px;
+}
